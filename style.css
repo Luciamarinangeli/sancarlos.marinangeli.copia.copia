@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*tipografias*/
+.gideon{
+    font-family: 'Gideon Roman', cursive;
+}
+.bebas{
+    font-family: 'Bebas Neue', cursive;
+}
+.tamañogrande{
+    font-size: large;
+
+}
+.tamañomedio{
+    font-size: medium;
+}
+.tamañomuygrande{
+    font-size: larger;
+}
+/*fin tipografias*/
+
+/*tamaño imagenes*/
+.imggrande{
+    width: 600px;
+    height: 400px;
+}
+.imgmediana{
+    width: 300px;
+    height: 300px;
+}
+
+/*fin de tamaño imagen*/
+/*inicio html*/
+.redessociales{
+    display: flex;
+    justify-items: right;
+    margin-right: 30px;
+    
+    
+}
+.facebook{
+    padding-right: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 20px;
+}
+.section{
+    width: 500px;
+    
+}
+.divimg{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+header div img{
+    width: 100px;
+    height: 100px;
+   
+    
+    
+}
+header{
+    display: flex;
+    background-color: #5394F7;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: #5394F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding-top: 120px;
+    padding-inline: 130px;
+    padding-bottom: 50px;
+    width: 10px;
+    
+    background-color: #ecf0f1;
+    height: 10px;
+    
+    
+} 
+
+.nav{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+/*fin html*/
+
+
+
+/*grid*/
+
+.navmodificado{
+    background-color: rgb(104, 175, 223);
+} 
